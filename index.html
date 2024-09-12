@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="rf.png">
+    <title>RegistrationForm</title>
+    <style>
+        body{
+            width:100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        #main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 100%;
+            background: linear-gradient(rgb(220, 212, 212),rgba(118, 118, 228, 0.59));
+            padding: 20px;
+            border-radius: 20px;
+        }
+        #f{
+            width: 500px;
+            height: 50px;
+            border:none;
+            border-bottom: rgba(93, 93, 98, 0.937) solid 2px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            padding: 0px 10px;
+        }
+        button{
+            background-color: rgb(27, 28, 29);
+            border: none;
+            border-radius: 10px;
+            width: 150px;
+            height: 50px;
+            font-weight: bold;
+            font-size: 20px;
+            color:white;
+
+        }
+        #f1{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+       
+        
+    </style>
+    
+</head>
+
+<body>
+    <form id="main">
+        <h2>Registration Form</h2>
+        <input id="f" type="text" value="FirstName">
+        <input id="f" type="text" value="LastName">
+        <input id="f" type="mail" value="email">
+        <div id="f1">
+            <input type="radio">Male
+            <input type="radio">Female
+        </div>
+        <input id="f"type="date" value="date">
+        <select id="f">
+            <option>COURSES</option>
+            <option>CSE</option>
+            <option>CAI</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>CIVIL</option>
+            <option>MECH</option>
+        </select>
+        <select id="f">
+            <option>College Name</option>
+            <option>Audisankara college of enigineering & technology-SANK</option>
+            <option>Audisankara college of enigineering & technology-ASIT</option>
+        </select>
+        <button >Register</button>
+
+    </form>
+
+</body>
+
+</html>
